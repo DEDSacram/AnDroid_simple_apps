@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/main_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/maincontainer" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.google.android.material.button.MaterialButton android:layout_gravity="center_horizontal" android:id="@+id/newGame" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="Nová hra" app:cornerRadius="20dp"/>
+            <TextView android:textSize="35dp" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Historie her" android:fillViewport="true"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/login_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/showdescriptioncontenttitle" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.google.android.material.textfield.TextInputEditText android:textSize="25dp" android:textColor="@color/white" android:textColorHint="@color/white" android:id="@+id/loginBox" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Zadejte promo kod" android:singleLine="true" android:imeOptions="actionDone" android:textAlignment="center" app:cornerRadius="20dp"/>
+        <com.google.android.material.button.MaterialButton android:layout_gravity="center_horizontal" android:id="@+id/confirmLogin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="Vstoupit" app:cornerRadius="20dp"/>
+    </LinearLayout>
+</RelativeLayout>

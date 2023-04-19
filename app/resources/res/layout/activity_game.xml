@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" app:titleTextColor="@android:color/white">
+        <Button android:id="@+id/Drawer_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hráči" android:drawableLeft="@drawable/baseline_menu_18"/>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.drawerlayout.widget.DrawerLayout android:orientation="vertical" android:id="@+id/Drawer_menu" android:background="@drawable/main_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.navigation.NavigationView android:layout_gravity="start" android:id="@+id/players" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@+id/Drawer_Content" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.google.android.material.button.MaterialButton android:id="@+id/addplayer_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Přidat hráče" android:insetTop="0dp" android:insetBottom="0dp" style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@+id/Drawer_Contents" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.google.android.material.button.MaterialButton android:id="@+id/end_game" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="Vyhodnoť" android:insetTop="0dp" android:insetBottom="0dp" style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+            </LinearLayout>
+        </com.google.android.material.navigation.NavigationView>
+        <LinearLayout android:orientation="vertical" android:id="@+id/fish_tank" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/row_1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/row_2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/row_3" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/row_4" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.google.android.material.button.MaterialButton android:layout_gravity="center" android:id="@+id/detect" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Detekuj"/>
+        </LinearLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp">
+    <TextView android:textSize="24sp" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Vyber kartu" android:textAlignment="center"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/choose_0" android:tag="0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_0" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+        <ImageButton android:id="@+id/choose_1" android:tag="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_1" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+        <ImageButton android:id="@+id/choose_2" android:tag="2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_2" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+        <ImageButton android:id="@+id/choose_3" android:tag="3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_3" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/choose_4" android:tag="4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_4" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+        <ImageButton android:id="@+id/choose_5" android:tag="5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_5" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+        <ImageButton android:id="@+id/choose_6" android:tag="6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_6" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+        <ImageButton android:id="@+id/choose_7" android:tag="7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_7" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/choose_8" android:tag="8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_8" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+        <ImageButton android:id="@+id/choose_9" android:tag="9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_9" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+        <ImageButton android:id="@+id/choose_10" android:tag="10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_10" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+        <ImageButton android:id="@+id/choose_11" android:tag="11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fish_11" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+        <ImageButton android:id="@+id/choose_12" android:tag="12" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/fish_12" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="1" android:backgroundTint="@color/transparent"/>
+    </LinearLayout>
+</LinearLayout>
